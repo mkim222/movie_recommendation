@@ -53,8 +53,8 @@ def get_recommendations(title):
 
 # pickle에서 덤핑했던거 가져오기
 # rb : 읽기모드
-movies = pickle.load(open('/Users/minsookim/Desktop/Programming Code/Python/Machine Learning/Project/movies.pkl', 'rb'))
-cosine_sim = pickle.load(open('/Users/minsookim/Desktop/Programming Code/Python/Machine Learning/Project/cosine_sim.pkl', 'rb'))
+movies = pickle.load(open('/Users/minsookim/Desktop/Programming Code/Python/Machine Learning/Project/movies.pickle', 'rb'))
+cosine_sim = pickle.load(open('/Users/minsookim/Desktop/Programming Code/Python/Machine Learning/Project/cosine_sim.pickle', 'rb'))
 
 
 # 웹사이트 디자인하기
